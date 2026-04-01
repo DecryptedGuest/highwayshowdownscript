@@ -342,7 +342,7 @@ MainTab:CreateButton({
         -- Step 1: Buy the car for free
         local BuyEvent = game:GetService("ReplicatedStorage").BuyCarEvent
         BuyEvent:FireServer(
-            "Ladybug Riva",
+            "Evil Sixteen",
             0  -- Buy for $0 (server doesn't validate)
         )
         
@@ -1285,7 +1285,7 @@ AutoFarmTab:CreateToggle({
                     -- Add money using buy-then-sell exploit
                     -- Step 1: Buy the car for free
                     local BuyEvent = game:GetService("ReplicatedStorage").BuyCarEvent
-                    BuyEvent:FireServer("BWM e36 M3 - Stock", 0)
+                    BuyEvent:FireServer("Evil Sixteen", 0)
                     
                     task.wait(0.1)  -- Small delay
                     
